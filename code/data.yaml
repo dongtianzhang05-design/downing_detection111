@@ -1,0 +1,8 @@
+train: /autodl-nas/ultralytics-8.3.20/VOCdevkit/train  # train images (relative to 'path') 128 images
+val: /autodl-nas/ultralytics-8.3.20/VOCdevkit/val  # val images (relative to 'path') 128 images
+test: /autodl-nas/ultralytics-8.3.20/VOCdevkit/test
+
+nc: 3
+
+# Classes
+names: ['swimmer', 'stopping','drowning']
